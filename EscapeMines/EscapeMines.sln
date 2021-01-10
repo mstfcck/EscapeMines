@@ -3,13 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB1104D6-2BA8-42AB-BD2B-F0205A171B35}"
-	ProjectSection(SolutionItems) = preProject
-		.gitattributes = .gitattributes
-		.gitignore = .gitignore
-		ReadMe.md = ReadMe.md
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{842AB0A2-DAAD-4102-9155-247E6C189D41}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines", "source\EscapeMines\EscapeMines.csproj", "{01B7DF3B-12BE-495A-A7EF-427E079824D2}"
@@ -17,19 +10,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3FB40669-D76F-4F9E-BD69-FC9160A54A4A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Tests", "test\EscapeMines.Tests\EscapeMines.Tests.csproj", "{BDF32E88-15AC-4A44-92AF-E9BF9A085905}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{910E433A-68D3-4D46-A713-10A8A401A63E}"
-	ProjectSection(SolutionItems) = preProject
-		Documents\EscapeMines.pdf = Documents\EscapeMines.pdf
-		Documents\TechnicalAnalysis.docx = Documents\TechnicalAnalysis.docx
-		Documents\TechnicalAnalysis.pdf = Documents\TechnicalAnalysis.pdf
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "screenshots", "screenshots", "{F3B5A7AB-648E-4DBA-A132-7E96576270C8}"
-	ProjectSection(SolutionItems) = preProject
-		Documents\screenshots\coverage-tests.png = Documents\screenshots\coverage-tests.png
-		Documents\screenshots\unit-tests.png = Documents\screenshots\unit-tests.png
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,8 +32,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{01B7DF3B-12BE-495A-A7EF-427E079824D2} = {842AB0A2-DAAD-4102-9155-247E6C189D41}
 		{BDF32E88-15AC-4A44-92AF-E9BF9A085905} = {3FB40669-D76F-4F9E-BD69-FC9160A54A4A}
-		{910E433A-68D3-4D46-A713-10A8A401A63E} = {CB1104D6-2BA8-42AB-BD2B-F0205A171B35}
-		{F3B5A7AB-648E-4DBA-A132-7E96576270C8} = {910E433A-68D3-4D46-A713-10A8A401A63E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D59252F4-6353-4C2E-B4B7-93F09F3C416B}
